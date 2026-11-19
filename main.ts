@@ -1,25 +1,27 @@
 /**
  * One Day in World News - Thursday 19 November 2026.
  *
- * The entry point of this submission is entry.png, a single rendered page
- * styled as a cream newsprint broadsheet dated Thursday 19 November 2026.
- * A red date tab sits against the masthead to stamp the edition day.
+ * Everything this repo submits lives in one file: entry.png, a rendered
+ * broadsheet laid out like cream newsprint and stamped for Thursday
+ * 19 November 2026. The masthead carries a red date tab so the edition
+ * day reads at a glance.
  *
- * Page anatomy, top to bottom:
- *   1. A day-in-numbers strip of eight cells, holding the headline figures
- *      of the day: the ICJ's 9-6 genocide vote, Anthropic's 81 billion
- *      dollar IPO valuation, the Kumamoto M5.7 earthquake, and UK
- *      inflation printing at 3.6 percent.
- *   2. Three hero cards leading the page: the Shenzhen three-way summit,
- *      the ICJ Myanmar ruling, and Anthropic's Nasdaq debut.
- *   3. Five secondary cards expanding the day's other major stories.
- *   4. Seven tertiary cards filling out the broader news agenda.
- *   5. Twenty-four evening briefs, each tagged by world region.
- *   6. A date-check footer that separates Wednesday's carryover items
- *      from the events that genuinely belong to this Thursday.
+ * Reading the sheet from the top:
+ *   - A day-in-numbers strip sets out the day's four key figures: the
+ *     ICJ genocide vote ending 9-6, Anthropic floating at an 81 billion
+ *     dollar valuation, the M5.7 earthquake off Kumamoto, and UK
+ *     inflation holding at 3.6 percent.
+ *   - Three hero cards lead the coverage: the three-way summit hosted
+ *     in Shenzhen, the ICJ's ruling on Myanmar, and Anthropic ringing
+ *     the bell at Nasdaq.
+ *   - Five secondary cards carry the next tier of stories.
+ *   - Seven tertiary cards round out the wider agenda.
+ *   - Twenty-four evening briefs follow, one per world region tag.
+ *   - A date-check footer closes the page, weeding out Wednesday's
+ *     carryover from what truly happened on this Thursday.
  *
- * main.ts itself performs no rendering: it simply copies entry.png into
- * the make.fun output directory when the pipeline runs.
+ * main.ts renders nothing itself; when the make.fun pipeline runs it
+ * only copies entry.png into the output directory.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
