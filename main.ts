@@ -1,14 +1,25 @@
 /**
  * One Day in World News - Thursday 19 November 2026.
- * This repository's entry is entry.png: a cream newsprint broadsheet that
- * sums up the whole world's news for Thursday 19 November 2026 on a single
- * 1024x1024 page. The masthead and red date tab set the day; an eight-cell
- * day-in-numbers strip carries the key figures (ICJ 9-6 genocide vote,
- * Anthropic's $81bn IPO price, Kumamoto's M5.7 quake, UK inflation at 3.6%);
- * three hero cards lead (the Shenzhen three-way summit, the ICJ ruling,
- * the Nasdaq debut), followed by five secondary and seven tertiary cards
- * and twenty-four region-tagged evening briefs; a date-check footer
- * separates Wednesday carryover from the day's real events.
+ *
+ * The entry point of this submission is entry.png, a single rendered page
+ * styled as a cream newsprint broadsheet dated Thursday 19 November 2026.
+ * A red date tab sits against the masthead to stamp the edition day.
+ *
+ * Page anatomy, top to bottom:
+ *   1. A day-in-numbers strip of eight cells, holding the headline figures
+ *      of the day: the ICJ's 9-6 genocide vote, Anthropic's 81 billion
+ *      dollar IPO valuation, the Kumamoto M5.7 earthquake, and UK
+ *      inflation printing at 3.6 percent.
+ *   2. Three hero cards leading the page: the Shenzhen three-way summit,
+ *      the ICJ Myanmar ruling, and Anthropic's Nasdaq debut.
+ *   3. Five secondary cards expanding the day's other major stories.
+ *   4. Seven tertiary cards filling out the broader news agenda.
+ *   5. Twenty-four evening briefs, each tagged by world region.
+ *   6. A date-check footer that separates Wednesday's carryover items
+ *      from the events that genuinely belong to this Thursday.
+ *
+ * main.ts itself performs no rendering: it simply copies entry.png into
+ * the make.fun output directory when the pipeline runs.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
