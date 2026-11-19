@@ -2,7 +2,11 @@
 
 ## Design notes
 
-How `entry.png`, the Thursday 19 November 2026 broadsheet, is laid out — and why.
+These are the design notes for `entry.png`, the broadsheet entry built for
+Thursday 19 November 2026 — a single-day front page that carries all 38
+stories filed for that date, ranked and tiered so the day reads at a glance
+and holds up under close reading. The sections below explain how the page
+is laid out, and why each of those choices was made.
 
 ### Why cream paper
 
@@ -66,3 +70,15 @@ How `entry.png`, the Thursday 19 November 2026 broadsheet, is laid out — and w
 - Ending the sheet on a verification box also borrows the credibility of a
   newspaper's corrections column — the page audits itself before the reader
   has to.
+
+## Sources
+
+- Reuters
+- AP
+- AFP
+- BBC
+- Bloomberg
+- Kyodo
+- ICJ
+- USGS
+- ONS
