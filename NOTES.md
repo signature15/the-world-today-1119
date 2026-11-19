@@ -3,10 +3,16 @@
 ## Design notes
 
 These are the design notes for `entry.png`, the broadsheet entry built for
-Thursday 19 November 2026 — a single-day front page that carries all 38
-stories filed for that date, ranked and tiered so the day reads at a glance
-and holds up under close reading. The sections below explain how the page
-is laid out, and why each of those choices was made.
+Thursday 19 November 2026. The brief behind the page was to compress one
+calendar day — and only that day — into a single printable front sheet:
+all 38 stories filed for Thursday 19 November 2026 had to appear on it,
+ranked and tiered so the day reads at a glance from across the room and
+still rewards a slow, close reading. Nothing on the sheet is filler; every
+card, strip and footer line traces back to a story or a figure from that
+one date, and the layout exists to make the day's shape legible — its
+leads, its second rank, its long tail. The sections below explain how the
+page is laid out, what each region of the sheet is doing, and why each of
+those choices was made.
 
 ### Why cream paper
 
@@ -72,6 +78,9 @@ is laid out, and why each of those choices was made.
   has to.
 
 ## Sources
+
+The services, agencies and data desks consulted as the day's sources for
+Thursday 19 November 2026, one line each:
 
 - Reuters
 - AP
