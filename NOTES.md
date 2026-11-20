@@ -2,17 +2,14 @@
 
 ## Design notes
 
-These are the design notes for `entry.png`, the broadsheet entry built for
-Thursday 19 November 2026. The brief behind the page was to compress one
-calendar day — and only that day — into a single printable front sheet:
-all 38 stories filed for Thursday 19 November 2026 had to appear on it,
-ranked and tiered so the day reads at a glance from across the room and
-still rewards a slow, close reading. Nothing on the sheet is filler; every
-card, strip and footer line traces back to a story or a figure from that
-one date, and the layout exists to make the day's shape legible — its
-leads, its second rank, its long tail. The sections below explain how the
-page is laid out, what each region of the sheet is doing, and why each of
-those choices was made.
+These are the design notes for `entry.png`, THE ONE-DAY PAPER: a cream,
+one-page broadsheet edition for Thursday 19 November 2026. The page gathers
+40 stories from that single date, pairing a clear news hierarchy with a stat
+band, a region tally, and a date-check footer that keeps the whole sheet tied
+to the correct day. It is meant to read as a finished newspaper page at a
+glance while rewarding closer reading of the leads, supporting coverage, and
+short briefs. The sections below explain how the page is laid out, what each
+region is doing, and why those choices make the day's news legible.
 
 ### Why cream paper
 

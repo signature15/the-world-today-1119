@@ -1,29 +1,23 @@
 /**
- * THE WORLD TODAY - one broadsheet page, one day: Thursday 19 November 2026.
+ * THE ONE-DAY PAPER is a single cream broadsheet for Thursday 19 November 2026.
  *
- * The submission is a single finished image, entry.png, and this file is
- * only the courier that moves it into place. The page reads as a cream
- * newsprint front page for Thursday 19 November 2026, opening with a
- * masthead whose red date tab stamps the edition so the day can be
- * confirmed before a single story is read.
+ * The finished artifact is one page designed to read like a newspaper edition:
+ * compact, date-specific, and dense with the day's news rather than a website.
+ * Its masthead establishes the title and date before the reader reaches the
+ * carefully ordered stories below.
  *
- * What a reader meets, working down the sheet:
- *   1. Masthead - the nameplate, the edition date, and the red date tab.
- *   2. Day-in-numbers strip - the day stated as figures: the ICJ's
- *      genocide vote settling 9-6, Anthropic going public at an 81
- *      billion dollar valuation, the M5.7 quake near Kumamoto, and
- *      UK inflation printing at 3.6 percent.
- *   3. Three hero cards - the Shenzhen three-way summit, the ICJ
- *      handing down its Myanmar ruling, and Anthropic's Nasdaq debut.
- *   4. Five secondary cards - the stories one rank below the heroes.
- *   5. Seven tertiary cards - the wider agenda, still worth the space.
- *   6. Twenty-four evening briefs - short items, each tagged with its
- *      world region so no continent goes uncounted.
- *   7. Date-check footer - the closing stamp tying the whole page to
- *      Thursday 19 November 2026 and no other day.
+ * The page brings together 40 stories, arranged from the most prominent leads
+ * through supporting coverage and shorter briefs. A stat band gives the day a
+ * quick numerical pulse, while a region tally makes the geographic spread of
+ * the reporting visible at a glance.
  *
- * Nothing is drawn, fetched, or generated at run time; main.ts simply
- * copies the completed entry.png into the output directory.
+ * The cream paper, dark rules, restrained type, and red date mark create the
+ * visual language of a printed front page. At the bottom, a date-check footer
+ * closes the edition by reaffirming Thursday 19 November 2026, keeping the
+ * entire sheet anchored to one calendar day.
+ *
+ * This TypeScript file does not draw or generate the broadsheet. It only moves
+ * the completed entry.png into the requested output directory at run time.
  */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
